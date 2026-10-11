@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files"><UniqueIdentifier>{6E558C57-34C0-4A55-8E9D-92B3C0895342}</UniqueIdentifier></Filter>
+    <Filter Include="Header Files"><UniqueIdentifier>{B3491CC4-68A1-4E89-959D-416D9C702646}</UniqueIdentifier></Filter>
+    <Filter Include="Configuration"><UniqueIdentifier>{FB47BE42-229B-41F0-91CF-F799750251C8}</UniqueIdentifier></Filter>
+    <Filter Include="Scripts"><UniqueIdentifier>{64D05552-1B3E-4796-A52B-F0B979156E3A}</UniqueIdentifier></Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp"><Filter>Source Files</Filter></ClCompile>
+    <ClCompile Include="gameplay_session.cpp"><Filter>Source Files</Filter></ClCompile>
+    <ClCompile Include="lobby_config.cpp"><Filter>Source Files</Filter></ClCompile>
+    <ClCompile Include="lobby_session.cpp"><Filter>Source Files</Filter></ClCompile>
+    <ClCompile Include="replay_scenario.cpp"><Filter>Source Files</Filter></ClCompile>
+    <ClCompile Include="skill_catalog.cpp"><Filter>Source Files</Filter></ClCompile>
+    <ClCompile Include="tutorial_world.cpp"><Filter>Source Files</Filter></ClCompile>
+    <ClCompile Include="tutorial_script.cpp"><Filter>Source Files</Filter></ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gameplay_session.hpp"><Filter>Header Files</Filter></ClInclude>
+    <ClInclude Include="lobby_config.hpp"><Filter>Header Files</Filter></ClInclude>
+    <ClInclude Include="lobby_session.hpp"><Filter>Header Files</Filter></ClInclude>
+    <ClInclude Include="replay_scenario.hpp"><Filter>Header Files</Filter></ClInclude>
+    <ClInclude Include="skill_catalog.hpp"><Filter>Header Files</Filter></ClInclude>
+    <ClInclude Include="tutorial_world.hpp"><Filter>Header Files</Filter></ClInclude>
+    <ClInclude Include="tutorial_script.hpp"><Filter>Header Files</Filter></ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\config\sema-local.ini"><Filter>Configuration</Filter></None>
+    <None Include="..\..\config\sema-local-elyos.ini"><Filter>Configuration</Filter></None>
+    <None Include="..\..\config\sema-local-asmodians.ini"><Filter>Configuration</Filter></None>
+    <None Include="..\..\config\tutorial-skills.csv"><Filter>Configuration</Filter></None>
+    <None Include="..\..\config\database.ini"><Filter>Configuration</Filter></None>
+    <None Include="..\..\database\schema.sql"><Filter>Configuration</Filter></None>
+    <None Include="..\..\config\protocol\opcode-annotations.csv"><Filter>Configuration</Filter></None>
+    <None Include="..\..\tools\Export-Aion2Dat.ps1"><Filter>Scripts</Filter></None>
+    <None Include="..\..\tools\Collect-UndecodedAion2Data.ps1"><Filter>Scripts</Filter></None>
+    <None Include="..\..\tools\Import-Aion2GameData.ps1"><Filter>Scripts</Filter></None>
+    <None Include="..\..\tools\Initialize-Aion2Decoder.ps1"><Filter>Scripts</Filter></None>
+    <None Include="..\..\tools\Initialize-GameDatabase.ps1"><Filter>Scripts</Filter></None>
+    <None Include="..\..\tools\client-data\CUE4Parse-AION2-current.patch"><Filter>Scripts</Filter></None>
+    <None Include="..\..\tools\client-data\CUE4Parse-AION2-october-schema.patch"><Filter>Scripts</Filter></None>
+    <None Include="..\..\scenarios\tutorial-bootstrap.json"><Filter>Configuration</Filter></None>
+    <None Include="..\..\scenarios\tutorial-cutscene-handoff.json"><Filter>Configuration</Filter></None>
+    <None Include="..\..\tools\Build-ProtocolCatalog.ps1"><Filter>Scripts</Filter></None>
+    <None Include="..\..\tools\Export-CaptureFrames.ps1"><Filter>Scripts</Filter></None>
+    <None Include="..\..\tools\Package-TestRelease.ps1"><Filter>Scripts</Filter></None>
+    <None Include="..\..\tools\Validate-Capture.ps1"><Filter>Scripts</Filter></None>
+  </ItemGroup>
+</Project>

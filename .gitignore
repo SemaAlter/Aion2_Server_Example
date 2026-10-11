@@ -1,0 +1,19 @@
+# Visual Studio / MSBuild
+.vs/
+bin/
+obj/
+*.user
+*.suo
+
+# Python
+__pycache__/
+
+# Your database connection (copy config/database.example.ini)
+config/database.ini
+
+# Never publish recordings
+scenarios/
+logs/
+*.log
+*.pcap
+*.pcapng

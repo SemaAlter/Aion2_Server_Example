@@ -1,0 +1,7 @@
+id,name,max_level,cooldown_ms,cast_time_ms,range,target,hit_shape,max_targets,angle_degrees
+4001,Tutorial Dash,1,500,0,0,self,single,1,0
+9865,Desperate Strike 1,1,1000,0,4,hostile,frontal_cone,4,120
+9866,Desperate Strike 2,1,1000,0,4,hostile,frontal_cone,4,120
+9867,Desperate Strike 3,1,1000,0,4,hostile,frontal_cone,4,120
+9868,Continuous Smite 1,1,1000,0,4,hostile,frontal_cone,4,120
+9869,Continuous Smite 2,1,500,0,4,hostile,frontal_cone,4,120

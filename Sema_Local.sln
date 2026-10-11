@@ -1,0 +1,42 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.0.11115.56
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sema.Protocol", "src\protocol\Sema.Protocol.vcxproj", "{9175B46C-EFAE-4B5B-84FC-665B09188AAF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sema Local", "src\server\Sema.Local.vcxproj", "{E4ED5769-9D64-42C0-90C1-4010BFE4E8C2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sema.Tests", "tests\native\Sema.Tests.vcxproj", "{1C9EF485-CFAB-4C93-9C57-1354C1F28ED8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sema.Redirector", "src\redirector\Sema.Redirector.vcxproj", "{C74013C2-B32B-4ED3-B54F-048CF9BA92B8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sema.GameData", "src\data\Sema.GameData.vcxproj", "{A59BC757-E9FD-4620-A8F3-D686DC48354C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9175B46C-EFAE-4B5B-84FC-665B09188AAF}.Debug|x64.ActiveCfg = Debug|x64
+		{9175B46C-EFAE-4B5B-84FC-665B09188AAF}.Debug|x64.Build.0 = Debug|x64
+		{9175B46C-EFAE-4B5B-84FC-665B09188AAF}.Release|x64.ActiveCfg = Release|x64
+		{9175B46C-EFAE-4B5B-84FC-665B09188AAF}.Release|x64.Build.0 = Release|x64
+		{E4ED5769-9D64-42C0-90C1-4010BFE4E8C2}.Debug|x64.ActiveCfg = Debug|x64
+		{E4ED5769-9D64-42C0-90C1-4010BFE4E8C2}.Debug|x64.Build.0 = Debug|x64
+		{E4ED5769-9D64-42C0-90C1-4010BFE4E8C2}.Release|x64.ActiveCfg = Release|x64
+		{E4ED5769-9D64-42C0-90C1-4010BFE4E8C2}.Release|x64.Build.0 = Release|x64
+		{1C9EF485-CFAB-4C93-9C57-1354C1F28ED8}.Debug|x64.ActiveCfg = Debug|x64
+		{1C9EF485-CFAB-4C93-9C57-1354C1F28ED8}.Debug|x64.Build.0 = Debug|x64
+		{1C9EF485-CFAB-4C93-9C57-1354C1F28ED8}.Release|x64.ActiveCfg = Release|x64
+		{1C9EF485-CFAB-4C93-9C57-1354C1F28ED8}.Release|x64.Build.0 = Release|x64
+		{C74013C2-B32B-4ED3-B54F-048CF9BA92B8}.Debug|x64.ActiveCfg = Debug|x64
+		{C74013C2-B32B-4ED3-B54F-048CF9BA92B8}.Debug|x64.Build.0 = Debug|x64
+		{C74013C2-B32B-4ED3-B54F-048CF9BA92B8}.Release|x64.ActiveCfg = Release|x64
+		{C74013C2-B32B-4ED3-B54F-048CF9BA92B8}.Release|x64.Build.0 = Release|x64
+		{A59BC757-E9FD-4620-A8F3-D686DC48354C}.Debug|x64.ActiveCfg = Debug|x64
+		{A59BC757-E9FD-4620-A8F3-D686DC48354C}.Debug|x64.Build.0 = Debug|x64
+		{A59BC757-E9FD-4620-A8F3-D686DC48354C}.Release|x64.ActiveCfg = Release|x64
+		{A59BC757-E9FD-4620-A8F3-D686DC48354C}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+EndGlobal

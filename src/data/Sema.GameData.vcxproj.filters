@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Public Headers"><UniqueIdentifier>{B35C072F-42C2-4D41-970D-16921E94C78E}</UniqueIdentifier></Filter>
+    <Filter Include="Private Headers"><UniqueIdentifier>{C4ED8435-96C2-438B-BDB1-29DD57E466CA}</UniqueIdentifier></Filter>
+    <Filter Include="Source Files"><UniqueIdentifier>{E64EEAC9-19CE-4312-9AA1-BA70DA25D460}</UniqueIdentifier></Filter>
+    <Filter Include="Configuration"><UniqueIdentifier>{532D392C-78D2-4287-8522-F42E35754A32}</UniqueIdentifier></Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\sema\data\catalog.hpp"><Filter>Public Headers</Filter></ClInclude>
+    <ClInclude Include="..\..\include\sema\data\database.hpp"><Filter>Public Headers</Filter></ClInclude>
+    <ClInclude Include="..\..\include\sema\data\game_data.hpp"><Filter>Public Headers</Filter></ClInclude>
+    <ClInclude Include="..\..\include\sema\data\item.hpp"><Filter>Public Headers</Filter></ClInclude>
+    <ClInclude Include="..\..\include\sema\data\monster.hpp"><Filter>Public Headers</Filter></ClInclude>
+    <ClInclude Include="..\..\include\sema\data\npc.hpp"><Filter>Public Headers</Filter></ClInclude>
+    <ClInclude Include="..\..\include\sema\data\quest.hpp"><Filter>Public Headers</Filter></ClInclude>
+    <ClInclude Include="..\..\include\sema\data\skill.hpp"><Filter>Public Headers</Filter></ClInclude>
+    <ClInclude Include="..\..\include\sema\data\spawn.hpp"><Filter>Public Headers</Filter></ClInclude>
+    <ClInclude Include="..\..\include\sema\data\types.hpp"><Filter>Public Headers</Filter></ClInclude>
+    <ClInclude Include="..\..\include\sema\data\walk_mesh.hpp"><Filter>Public Headers</Filter></ClInclude>
+    <ClInclude Include="..\..\include\sema\data\world_event.hpp"><Filter>Public Headers</Filter></ClInclude>
+    <ClInclude Include="csv_reader.hpp"><Filter>Private Headers</Filter></ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="csv_reader.cpp"><Filter>Source Files</Filter></ClCompile>
+    <ClCompile Include="database.cpp"><Filter>Source Files</Filter></ClCompile>
+    <ClCompile Include="game_data.cpp"><Filter>Source Files</Filter></ClCompile>
+    <ClCompile Include="walk_mesh.cpp"><Filter>Source Files</Filter></ClCompile>
+  </ItemGroup>
+  <ItemGroup><None Include="..\..\config\database.ini"><Filter>Configuration</Filter></None><None Include="..\..\database\schema.sql"><Filter>Configuration</Filter></None><None Include="..\..\config\game-data\README.md"><Filter>Configuration</Filter></None><None Include="..\..\config\game-data\skills.csv"><Filter>Configuration</Filter></None><None Include="..\..\config\game-data\items.csv"><Filter>Configuration</Filter></None><None Include="..\..\config\game-data\npcs.csv"><Filter>Configuration</Filter></None><None Include="..\..\config\game-data\monsters.csv"><Filter>Configuration</Filter></None><None Include="..\..\config\game-data\spawns.csv"><Filter>Configuration</Filter></None></ItemGroup>
+</Project>

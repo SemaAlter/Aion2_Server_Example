@@ -1,0 +1,7 @@
+skill_id,name,kind,server_skill_id,next_request_skill_id,announced_next_skill_id,sends_combo_stage,begins_combat_state,terminal_release_delay_ms
+4001,Tutorial Dash,dash,4002,4001,0,false,false,0
+9865,Primary Attack 1,primary,9865,9866,9866,false,true,0
+9866,Primary Attack 2,primary,9866,9867,9867,true,false,0
+9867,Primary Attack 3,primary,9867,9865,0,true,false,3000
+9868,Secondary Attack 1,secondary,9868,9869,0,false,false,0
+9869,Secondary Attack 2,secondary,9869,9868,0,false,false,0
